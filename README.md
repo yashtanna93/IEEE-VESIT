@@ -4,10 +4,10 @@ Application created for student chapter of IEEE at VESIT. It is created using Ph
 ## Screenshots
 
 <br>
-<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/1.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/1.png" width="300"/> 
 
-<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/3.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/3.png" width="300"/>
 
-<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/4.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/4.png" width="300"/>
 
-<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/2.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://raw.githubusercontent.com/yashtanna93/IEEE-VESIT/master/screenshots/2.png" width="300"/>
