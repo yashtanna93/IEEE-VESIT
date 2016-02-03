@@ -1,0 +1,404 @@
+<!DOCTYPE html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--Declare page as mobile friendly --> 
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+<!-- Declare page as iDevice WebApp friendly -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png"> 
+<!-- iPhone 3, 3Gs -->
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" /> 
+<!-- iPhone 4 -->
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen_402x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<!-- iPhone 5 -->
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen_403x.png" />
+
+<!-- Page Title -->
+<title>IEEE-VESIT</title>
+
+<!-- Stylesheet Load -->
+<link href="styles/style.css"				rel="stylesheet" type="text/css">
+<link href="styles/framework-style.css" 	rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 			rel="stylesheet" type="text/css">
+<link href="styles/bxslider.css"			rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"			rel="stylesheet" type="text/css">
+<link href="styles/icons.css"				rel="stylesheet" type="text/css">
+<link href="styles/coach.css"				rel="stylesheet" type="text/css">
+<link href="styles/retina.css" 				rel="stylesheet" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" />
+
+
+<!--Page Scripts Load -->
+<script src="scripts/jquery.min.js"		 type="text/javascript"></script>	
+<script src="scripts/snap.js"			 type="text/javascript"></script>
+<script src="scripts/hammer.js"			 type="text/javascript"></script>	
+<script src="scripts/jquery-ui-min.js"   type="text/javascript"></script>
+<script src="scripts/subscribe.js"		 type="text/javascript"></script>
+<script src="scripts/contact.js"		 type="text/javascript"></script>
+<script src="scripts/jquery.swipebox.js" type="text/javascript"></script>
+<script src="scripts/bxslider.js"		 type="text/javascript"></script>
+<script src="scripts/colorbox.js"		 type="text/javascript"></script>
+<script src="scripts/retina.js"			 type="text/javascript"></script>
+<script src="scripts/custom.js"			 type="text/javascript"></script>
+<script src="scripts/framework.js"		 type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
+
+<div class="all-elements">
+    <div id="sidebar" class="page-sidebar">
+        <div class="page-sidebar-scroll">
+            <div class="nav-item">
+                <a href="index.html" class="nav-icon">
+                	<img src="images/misc/1.png" alt="img" width="30">
+                	HOMEPAGE
+                </a>
+            </div>
+            <div class="nav-item no-border selected-nav-item">
+                <a href="events.html" class="nav-icon">
+                	<img src="images/misc/monthcalendar.png" alt="img" width="30">
+                	EVENTS
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="winners.html" class="nav-icon">
+                	<img src="images/misc/cup.png" alt="img" width="30">
+                	WINNERS
+                </a>
+            </div>
+            <div class="nav-item no-border">
+                <a href="magazine.html" class="nav-icon">
+                	<img src="images/misc/creatwrite.png" alt="img" width="30">
+                	MAGAZINES
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="callforpapers.html" class="nav-icon">
+                	<img src="images/misc/documenttext.png" alt="img" width="30">
+                	CFPs and Conferences
+                </a>
+            </div>
+            <div class="nav-item no-border">
+                <a href="melange.html" class="nav-icon">
+                	<img src="images/misc/digg3.png" alt="img" width="30">
+                	MELANGE
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="wie.html" class="nav-icon">
+                	<img src="images/misc/femalesymbol.png" alt="img" width="30">
+                	WIE
+                </a>
+            </div>
+            <div class="nav-item no-border">
+                <a href="ieee360.html" class="nav-icon">
+                	<img src="images/misc/globe.png" alt="img" width="30">
+                	IEEE-360
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="membershipdetails.html" class="nav-icon">
+                	<img src="images/misc/9.png" alt="img" width="30">
+                	MEMBERSHIP DETAILS
+                </a>
+            </div>
+            <div class="nav-item no-border ">
+                <a href="aboutus.html" class="nav-icon">
+                	<img src="images/misc/2.png" alt="img" width="30">
+                	ABOUT US
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="feedback.html" class="nav-icon">
+                	<img src="images/misc/13.png" alt="img" width="30">
+                	CONTACT US
+                </a>
+            </div>
+            <div class="nav-item no-border">
+                <a href="council.html" class="nav-icon">
+                	<img src="images/misc/group2.png" alt="img" width="30">
+                	COUNCIL
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="https://www.facebook.com/groups/202373699777405/" class="nav-icon">
+                	<img src="images/misc/11.png" alt="img" width="30">
+                	FACEBOOK
+                </a>
+            </div>
+            <div class="nav-item no-border">
+                <a href="http://twitter.com/ieeevesit" class="nav-icon">
+                	<img src="images/misc/12.png" alt="img" width="30">
+                	TWITTER
+                </a>
+            </div>
+        </div>
+    </div>
+    
+      
+    <div id="content" class="page-content">
+       
+        <div class="page-header">
+            <p class="logo">
+                <img src="images/misc/logo111.png" width="150">
+            </p>
+            <a href="#" class="deploy-sidebar"></a>        
+        </div>	
+		
+        <div class="page-content-wrapper">
+
+		
+     
+		
+		<!--Dropdown-->
+        
+        <div class="container no-bottom">
+        <h4 class="heading-icon"><b>EVENTS DETAILS</b></h4>
+        
+        <div class="decoration"></div>
+		
+		
+		
+		</br>
+	
+        	<div class="dropdown-menu">
+            	<a href="#" class="dropdown-deploy"><em class="left-dropdown bg-light"></em><b>TECHNICAL EVENTS</b></a>
+                <a href="#" class="dropdown-hidden"><em class="left-dropdown bg-light"></em><b>TECHNICAL EVENTS DETAILS</b></a>
+                
+				<a href="#" class="dropdown-item bg-light">
+				<div class="column">
+						<img class="column-icon" src="images/icons-large/awayfun.png" alt="img">
+						<h5 class="uppercase">Tech It Away</h5>
+						<p class="no-bottom">Tech It Away is a quiz event which is completely based on technical questions and technical trends around the world </p> 
+					</div>
+				</a>
+				
+				
+				<a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/tpptech.png" alt="img">
+						<h5 class="uppercase">Technical Paper Presentation</h5>
+						<p class="no-bottom">TPP is presenting your technical paper for a competition. </p> 
+					</div> 		
+					</a>
+					
+					
+					
+					
+					
+				<a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/andwrktech.png" alt="img">
+						<h5 class="uppercase">Android Workshop</h5>
+						<p class="no-bottom">This workshop teaches you to create your own app. </p> 
+					</div> 		
+					</a>
+					
+					
+					
+					
+					
+				<a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/robotech.png" alt="img">
+						<h5 class="uppercase">Robotics Workshop</h5>
+						<p class="no-bottom">A workshop which teaches you create your own robot!! </p> 
+					</div> 		
+					</a>
+					
+					
+					
+				<a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/ppttech.png" alt="img">
+						<h5 class="uppercase">Seminar On Technical Opportunity</h5>
+						<p class="no-bottom">The seminar was aimed to train students for improving their technical skills and enlight them with current technologies. </p> 
+					</div> 		
+					</a>
+				
+                
+					
+				 <a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/tawtech.png" alt="img">
+						<h5 class="uppercase">Technical Article Writing</h5>
+						<p class="no-bottom">The articles which were selected were printed in the magzine of IEEE and were provided with prizes. </p> 
+					</div> 		
+					</a>
+					
+					
+					
+                <div class="dropdown-bottom-border"></div>
+            </div>     
+			
+		</div>
+			
+			
+			
+		</br>
+		
+			<div class="container no-bottom">
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-deploy"><em class="left-dropdown bg-light"></em><b>FUN EVENTS</b></a>
+					<a href="#" class="dropdown-hidden"><em class="left-dropdown bg-light"></em><b>FUN EVENTS DETAILS</b></a>
+					<a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/funcrosswits.png" alt="img">
+						<h5 class="uppercase">Cross-Wits</h5>
+						<p class="no-bottom">Cross Wits was a quiz based on completely witty questions which were out of the world. </p> 
+					</div> 		
+					</a>
+					<a class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/funbluff.png" alt="img">
+						<h5 class="uppercase">Countdown And Bluffmaster</h5>
+						<p class="no-bottom">Small fun events followed by bluffmaster game which used to come on star one few year back. </p> 
+					</div> 
+					</a>
+					<a  class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/funoth.png" alt="img">
+						<h5 class="uppercase">Online Treasure Hunt</h5>
+						<p class="no-bottom">Treasure Hunt in the virtual world which keeps everyone away from the bed. </p> 
+					</div> 
+					
+					</a>
+					
+					
+					<a  class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/funpacman.png" alt="img">
+						<h5 class="uppercase">PACMAN</h5>
+						<p class="no-bottom">Pacman game played with robots that too multiplayer!! </p> 
+					</div>
+					
+					<a class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/expeditionfun.png" alt="img">
+						<h5 class="uppercase">EXPEDITION</h5>
+						<p class="no-bottom">Find the treasure hidden in the college to complete the expedition. </p> 
+					</div> 
+					
+					</a>
+					
+					
+					<a  class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/droidfun.png" alt="img">
+						<h5 class="uppercase">Droid Wars</h5>
+						<p class="no-bottom">Android games played in real life. </p> 
+					</div> 
+					
+					</a>
+					
+					
+					<a  class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/gamesbondfun.png" alt="img">
+						<h5 class="uppercase">GAMES BOND</h5>
+						<p class="no-bottom">Game based on Age Of Empires follow by the epic game of laser tag. </p> 
+					</div> 
+					
+					</a>
+					
+					
+					<a  class="dropdown-item bg-light">
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/robocupfun.png" alt="img">
+						<h5 class="uppercase">Robocup</h5>
+						<p class="no-bottom">ROBOCUP is a tech cum fun event of Robo wars and Robo races. </p> 
+					</div> 
+					
+					</a>
+					
+					<div class="dropdown-bottom-border"></div>
+				</div>
+			</div>	
+			
+		</br>
+	    <div class="container no-bottom">
+        	<div class="dropdown-menu">
+            	<a href="#" class="dropdown-deploy"><em class="left-dropdown bg-light"></em><b>WIE</b></a>
+                <a href="#" class="dropdown-hidden"><em class="left-dropdown bg-light"></em><b>WIE EVENT DETAILS</b></a>
+                <a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/selfwie.png" alt="img">
+						<h5 class="uppercase">Self Defence</h5>
+						<p class="no-bottom">Workshop conducted by a trained profession who taught girls with the self defence technique which were actually tried by each girl in the workshop. </p> 
+					</div> 		
+					</a>
+					
+				
+				<a class="dropdown-item bg-light">
+				
+					<div class="column">
+						<img class="column-icon" src="images/icons-large/wieemp.png" alt="img">
+						<h5 class="uppercase">Women Empowerment</h5>
+						<p class="no-bottom">Seminar on the empowerment of the women by a well known speaker. </p> 
+					</div> 		
+					</a>
+					
+                
+				
+				
+                <div class="dropdown-bottom-border"></div>
+            </div>
+		</div>	
+			
+			
+			
+			
+			
+        
+		
+		
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		
+		
+		
+        
+        <div class="decoration"></div>
+		
+		
+       <!-- <div class="decoration"></div> -->
+    
+     
+       <!--  <div class="decoration"></div> -->
+		<p class="center-text copyright no-bottom">COPYRIGHT 2013. ALL RIGHTS RESERVED</p> 
+    </div> 
+    <div class="footer">
+        <div class="footer-shortcuts">
+            <a href="#"><span class="icon icon-facebook"></span></a>
+            <a href="http://www.youtube.com/watch?feature=player_embedded&v=4Uw0yMJtADc" ><span class="icon icon-youtube3"></span></a>
+            <a href="#"><span class="icon icon-twitter2"></span></a>
+        </div>            
+    </div>
+</div>
+
+
+</body>
+</html>
